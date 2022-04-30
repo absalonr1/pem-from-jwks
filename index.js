@@ -5,6 +5,7 @@ var request = require('request');
 // see : https://aws.amazon.com/blogs/mobile/integrating-amazon-cognito-user-pools-with-api-gateway/
 //       https://aws.amazon.com/premiumsupport/knowledge-center/decode-verify-cognito-json-token/
 //      https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html
+//      https://stackoverflow.com/questions/43978673/why-does-aws-cognito-use-multiple-public-keys-for-jwts
 
 /**
  * Get cognito's secret key
