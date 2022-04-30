@@ -2,6 +2,10 @@ const jwkToPem = require('jwk-to-pem');
 const requestify = require('requestify');
 var request = require('request');
 
+// see : https://aws.amazon.com/blogs/mobile/integrating-amazon-cognito-user-pools-with-api-gateway/
+//       https://aws.amazon.com/premiumsupport/knowledge-center/decode-verify-cognito-json-token/
+//      https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html
+
 /**
  * Get cognito's secret key
  * @param {String} region
